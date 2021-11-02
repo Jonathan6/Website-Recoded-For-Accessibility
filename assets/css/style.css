@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*Navigation Bar*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +51,7 @@ p {
     font-size: 16px;
 }
 
+/*Hero Banner*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +61,23 @@ p {
     background-position: center;
 }
 
+/*Main Content*/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Content Image Float Direction*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +88,16 @@ p {
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+main section img {
+    max-height: 200px;
 }
 
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Aside Bar*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -102,24 +125,7 @@ aside section img {
     max-width: 150px;
 }
 
-main section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main section img {
-    max-height: 200px;
-}
-
-main section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*Footer*/
 .footer {
     padding: 30px;
     clear: both;
