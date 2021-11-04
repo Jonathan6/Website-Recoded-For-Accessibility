@@ -11,7 +11,8 @@ I took the HTML and CSS of Horizon and adjusted them to make then clearer and ea
 - [Conclusion](#conclusion)
 
 ## Website Preview
-![Screenshot of Horison Website](assets/images/websitepreview.png)
+[![Screenshot of Horison Website](assets/images/websitepreview.png)](https://jonathan6.github.io/Website-Recoded-For-Accessibility/)
+Click the preview to be redirected to the website!
 
 ## HTML Adjustments
 Adjusting the HTML was primarliy replacing all the div's in the file with semantic tags that better described the purpose of the tag in the webpage. This helps increase the accessibility of the website allowing screen readers to easily naviagte through the webpage and improve the website's Google search ranking, giving the company more exposure in search algorithms. 
@@ -23,4 +24,3 @@ The original CSS showed the drawbacks of not utilizing the cascading effect of C
 
 ## Conclusion
 I am pretty satisfied with the final product. It is more accessible, cleaner, and easier to maintain. There are improvements to be made but for a learning experience it has taught me the basic structure of a HTML file within a website and showed why it is important to keep in mind proper semantics when developing a new page. 
-
